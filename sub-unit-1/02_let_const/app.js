@@ -1,0 +1,15 @@
+"use strict";
+
+var a = 'Test1';
+var b = 'Test2';
+
+const testVar = () => {
+	var a = 30;
+	if(true) {
+		var a = 50;
+		console.log(a);
+	}
+	console.log(`other A: ${a}`);
+}
+
+console.log(`Logged: ${a+b}`);

@@ -13,5 +13,3 @@ colors.push('blue');
 // colors = 'Green';
 
 console.log(colors);
-
-
